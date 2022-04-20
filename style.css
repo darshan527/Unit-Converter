@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+}
+
+
+input, input:focus{
+        outline: none;
+        border: none;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-family: Inter;
+        font-weight: 800;
+        font-size: 100px;
+        background-color: transparent;
+        color: #FFF;
+    }
+#main {
+    background-color: #FBF7EE;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 550px;
+    margin: 10% auto;
+    padding: 0px;
+    border-radius: 5px;
+}
+#main1 {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 800;
+    animation: gradient 15s ease infinite;
+    border-radius: 5px 5px 0px 0px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#main2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.calc>h3 {
+    color: #1A1921;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.calc>p {
+    color: #4E4E4E;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+}
