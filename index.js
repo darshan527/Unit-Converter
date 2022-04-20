@@ -20,6 +20,11 @@ val.addEventListener("change", (event) => {
     calc(n)
 });
 
+// Clear the Text box when clicked to type
+val.addEventListener("click", () => {
+    val.value = null;
+})
+
 // Dark Mode function that updates styles based on toggle value
 function dark() {
     let tmp = document.querySelectorAll(".calc>h3")
