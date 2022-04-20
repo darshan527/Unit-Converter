@@ -18,6 +18,7 @@ input, input:focus{
         font-size: 100px;
         background-color: transparent;
         color: #FFF;
+        caret-color: transparent;
     }
 #main {
     background-color: #FBF7EE;
